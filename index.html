@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- Font styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts end -->
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <nav class="navbar" id="header">
+      <div class="container d-flex">
+        <img src="./images/logo.svg" alt="Huddle" class="navbar-brand w-50" />
+        <button class="btn btn-light btn-sm shadow" id="btn-top">
+          Try It Free
+        </button>
+      </div>
+    </nav>
+
+    <section class="head p-5">
+      <div class="container text-center">
+        <h3 class="text-center fw-bold justify-content-center">
+          Build the Community Your Fans Will Love
+        </h3>
+        <p class="p-4">
+          Huddle re-imagines theway we build communities. You have a voice, but
+          so does your audience. Create conncections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button class="btn btn-lg" id="btn-pink">Get Started For Free</button>
+        <img
+          src="./images/illustration-mockups.svg"
+          class="img-fluid mt-5"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <!-- Card-01 -->
+          <div class="card col-md" id="#card">
+            <div class="card-img-top p-3">
+              <img
+                src="./images/illustration-grow-together.svg"
+                alt="Grow Together"
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-title text-center fw-bold p-3">Grow Together</div>
+            <div class="card-text text-center fw-lighter">
+              <p class="card-info">
+                Generate meaningful discussions with your audience and build
+                astrong, loyal commuinity. Think of the insightful conversations
+                you miss out on with a feedback form.
+              </p>
+            </div>
+          </div>
+          <!-- End of card-01 -->
+
+          <!-- Card-02 -->
+          <div class="card col-md mt-5" id="#card">
+            <div class="card-img-top p-3">
+              <img
+                src="./images/illustration-flowing-conversation.svg"
+                alt="Flowing Conversations"
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-title text-center fw-bold p-3">
+              Flowing Conversations
+            </div>
+            <div class="card-text text-center fw-lighter">
+              <p class="card-info">
+                You wouldn't paginate a converasation in real life, so why do it
+                online? Our threads have just-in-time loading for a more natural
+                flow.
+              </p>
+            </div>
+          </div>
+          <!-- End of card-02 -->
+
+          <!-- Card-03 -->
+          <div class="card col-md mt-5" id="#card">
+            <div class="card-img-top p-3">
+              <img
+                src="./images/illustration-your-users.svg"
+                alt="your Users"
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-title text-center fw-bold p-3">Your Users</div>
+            <div class="card-text text-center fw-lighter">
+              <p class="card-info">
+                It takes no time at all to integrate Huddle with your app's
+                authentication solution. This means once signed in to your app,
+                your users can start chatting immediately.
+              </p>
+            </div>
+          </div>
+          <!-- End of card-03 -->
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5">
+      <div class="card p-5 join-card">
+        <h5 class="card-title text-center fw-bolder">
+          Ready To Build Your Community?
+        </h5>
+        <button class="btn btn-lg" id="btn-pink">Get Started For Free</button>
+      </div>
+    </section>
+
+    <footer class="text-light">
+      <div class="container p-3">
+        <img src="./images/logo-white.svg" class="img-fluid mt-5 w-50" alt="" />
+        <div class="location mt-3">
+          <i class="bi bi-geo-alt-fill"></i>
+          Lorem ipsum dolor sit amet.
+        </div>
+        <div class="contact mt-3">
+          <i class="bi bi-telephone-fill"></i>
+          +1-543-123-4567
+        </div>
+        <div class="mail mt-3">
+          <i class="bi bi-envelope-fill"></i>
+          example@huddle.com
+        </div>
+        <div class="links mt-5">
+          <a href="#" class="link-light btn">About Us</a> <br />
+          <a href="#" class="link-light btn">What We Do</a> <br />
+          <a href="#" class="link-light btn">FAQ</a><br />
+          <a href="#" class="link-light btn">Career</a> <br />
+          <a href="#" class="link-light btn">Blog</a> <br />
+          <a href="#" class="link-light btn">Contact Us</a>
+        </div>
+        <div
+          class="social-media text-center d-flex justify-content-evenly mt-4"
+        >
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-instagram"></i>
+        </div>
+        <div class="copyright text-center mt-4 fs-6">
+          &copy; Copyright 2021 Huddle. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <!-- 
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Santosh Jain</a>.
+      </p>
+    </footer> -->
+  </body>
+</html>
