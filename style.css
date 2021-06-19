@@ -51,11 +51,6 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 }
 
 
-/* *,
-body{
-/*     background-color: hsl(193, 100%, 96%);
-} */
-
 #header{
     background-color: var(--pale-cyan);
 }
@@ -63,7 +58,6 @@ body{
 .head{
     background-image: url(./images/bg-hero-mobile.svg);
     background-color: var(--pale-cyan);
-    height: 100vh;
     overflow: hidden;
 }
 
@@ -78,28 +72,32 @@ body{
 #btn-pink{
     background-color: var(--pink);
     border-radius: 25px;
-    font-size: 0.9rem;
+    text-decoration: none;
+    align-self: center;
+}
+
+i {
+    padding: 15px;
+}
+footer a{
     color: #fff;
-    width: 100%;
+    text-decoration: none;
 }
-
-#card{
-    border-radius: 15px;
-}
-
 .card-info{
     color: var(--gray-blue);
     font-size: 0.75rem;
 }
 
-.join-card{
+#join-card{
+    background-color: #fff;
     position: relative;
     bottom: -80px;
-    border-radius: 2rem;
+    border-radius: 25px;
 }
 
 footer{
     background-color:  var(--dark-cyan);
+    overflow: hidden;
 }
 
 
